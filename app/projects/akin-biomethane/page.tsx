@@ -26,7 +26,7 @@ export default function AkinBiomethanePage() {
             story with greater clarity, momentum and commercial relevance.
           </p>
           <a
-            href="#"
+            href="https://www.akingump.com/en/insights/articles/untapped-potential-the-opportunity-in-biomethane-production"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-[13px] font-medium text-[var(--text-primary)] border border-dashed border-[var(--border-dashed)] rounded-lg px-4 py-2 hover:border-[var(--text-muted)] transition-colors"
