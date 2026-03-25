@@ -7,13 +7,13 @@ export default function Hero() {
       <HeroIcon />
 
       <AnimateIn delay={0.05}>
-        <h1 className="text-[38px] md:text-[44px] font-bold text-[var(--text-primary)] leading-[1.12] tracking-[-0.02em] mb-4">
+        <h1 className="text-[46px] md:text-[54px] font-bold text-[var(--text-primary)] leading-[1.05] tracking-[-0.025em] mb-4">
           Hello, I&apos;m Henry Killick.
         </h1>
       </AnimateIn>
 
       <AnimateIn delay={0.1}>
-        <p className="text-[16px] md:text-[17px] text-[var(--text-secondary)] leading-[1.7] max-w-[520px]">
+        <p className="text-[15px] text-[var(--text-secondary)] leading-[1.7] max-w-[520px]">
           Graphic designer working across brand, web and digital storytelling.
           I help studios, agencies and ambitious businesses turn complex ideas
           into clear, usable and commercially sharp digital experiences.

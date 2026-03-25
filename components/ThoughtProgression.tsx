@@ -32,10 +32,10 @@ const items = [
 export default function ThoughtProgression() {
   return (
     <section>
-      <h2 className="text-[18px] font-semibold text-[var(--text-primary)] mb-2">
+      <h2 className="text-[22px] font-semibold text-[var(--text-primary)] tracking-[-0.01em] mb-2">
         Thought Progression
       </h2>
-      <p className="text-[14px] text-[var(--text-muted)] leading-[1.65] mb-8 max-w-[480px]">
+      <p className="text-[15px] text-[var(--text-muted)] leading-[1.7] mb-8 max-w-[480px]">
         Building research and data into narrative-led stories that establish
         authority and make specialist subjects more engaging.
       </p>
@@ -54,10 +54,10 @@ export default function ThoughtProgression() {
                   />
                 </div>
                 <div className="p-4 flex flex-col gap-1 flex-1">
-                  <h3 className="text-[14px] font-semibold text-[var(--text-primary)] leading-snug">
+                  <h3 className="text-[15px] font-semibold text-[var(--text-primary)] leading-snug">
                     {item.title}
                   </h3>
-                  <p className="text-[12px] text-[var(--text-secondary)] leading-[1.6]">
+                  <p className="text-[13px] text-[var(--text-secondary)] leading-[1.6]">
                     {item.description}
                   </p>
                 </div>

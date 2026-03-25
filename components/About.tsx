@@ -4,15 +4,15 @@ import AnimateIn from "./AnimateIn";
 export default function About() {
   return (
     <section>
-      <h2 className="text-[18px] font-semibold text-[var(--text-primary)] mb-8">
+      <h2 className="text-[22px] font-semibold text-[var(--text-primary)] tracking-[-0.01em] mb-8">
         About
       </h2>
       <div className="flex flex-col md:flex-row gap-10 items-start">
         <AnimateIn className="flex-1">
-          <h3 className="text-[16px] font-semibold text-[var(--text-primary)] mb-4">
+          <h3 className="text-[17px] font-semibold text-[var(--text-primary)] mb-4">
             Behind the Work
           </h3>
-          <div className="flex flex-col gap-3 text-[14px] text-[var(--text-secondary)] leading-[1.75]">
+          <div className="flex flex-col gap-3 text-[15px] text-[var(--text-secondary)] leading-[1.7]">
             <p>I work at the point where design, narrative and commercial clarity meet.</p>
             <p>
               My practice is centred on helping organisations explain themselves

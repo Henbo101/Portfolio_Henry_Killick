@@ -4,10 +4,10 @@ export default function Contact() {
   return (
     <section>
       <AnimateIn>
-        <h2 className="text-[18px] font-semibold text-[var(--text-primary)] mb-2">
+        <h2 className="text-[22px] font-semibold text-[var(--text-primary)] tracking-[-0.01em] mb-2">
           Connect with me
         </h2>
-        <p className="text-[14px] text-[var(--text-secondary)] leading-[1.7] max-w-[420px] mb-7">
+        <p className="text-[15px] text-[var(--text-secondary)] leading-[1.7] max-w-[420px] mb-7">
           Looking for a designer who can bring structure, clarity and narrative
           to your digital presence? Let&apos;s talk.
         </p>
@@ -52,7 +52,7 @@ export default function Contact() {
       </AnimateIn>
 
       <AnimateIn delay={0.14}>
-        <p className="text-[12px] text-[var(--text-muted)] mt-7 leading-[1.65]">
+        <p className="text-[12px] text-[var(--text-muted)] mt-7 leading-[1.6]">
           Available for freelance and contract opportunities across branding,
           digital design, web and narrative-led content.
         </p>

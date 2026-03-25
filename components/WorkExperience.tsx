@@ -51,7 +51,7 @@ const roles = [
 export default function WorkExperience() {
   return (
     <section>
-      <h2 className="text-[18px] font-semibold text-[var(--text-primary)] mb-6">
+      <h2 className="text-[22px] font-semibold text-[var(--text-primary)] tracking-[-0.01em] mb-6">
         Work Experience
       </h2>
       <div className="flex flex-col divide-y divide-dashed divide-[var(--border-dashed)]">
@@ -90,7 +90,7 @@ export default function WorkExperience() {
                       {" "}· {role.company}
                     </span>
                   </p>
-                  <p className="text-[12px] text-[var(--text-secondary)] leading-[1.6] mt-1 line-clamp-2">
+                  <p className="text-[13px] text-[var(--text-secondary)] leading-[1.6] mt-1 line-clamp-2">
                     {role.description}
                   </p>
                 </div>

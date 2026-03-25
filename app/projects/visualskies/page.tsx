@@ -18,10 +18,10 @@ export default function VisualskyesPage() {
           <p className="text-[11px] font-medium tracking-[0.1em] uppercase text-[#999999] mb-4">
             Brand · Web · Positioning
           </p>
-          <h1 className="text-[40px] md:text-[48px] font-semibold text-[#111111] leading-[1.1] tracking-tight mb-4">
+          <h1 className="text-[44px] md:text-[52px] font-semibold text-[#111111] leading-[1.05] tracking-[-0.02em] mb-4">
             Visualskies
           </h1>
-          <p className="text-[18px] text-[#555555] leading-[1.65] max-w-[560px] mb-5">
+          <p className="text-[17px] text-[#555555] leading-[1.5] max-w-[560px] mb-5">
             Brand enhancement and website redesign for a specialist 3D scanning
             and volumetric capture studio.
           </p>
@@ -57,7 +57,7 @@ export default function VisualskyesPage() {
               <p className="text-[11px] font-medium tracking-[0.08em] uppercase text-[#999999] mb-1">
                 {item.label}
               </p>
-              <p className="text-[14px] text-[#111111]">{item.value}</p>
+              <p className="text-[15px] text-[#111111]">{item.value}</p>
             </div>
           ))}
         </div>
@@ -66,10 +66,10 @@ export default function VisualskyesPage() {
       {/* Why this mattered */}
       <AnimateIn>
         <section className="py-12 border-b border-[#e5e5e5]">
-          <h2 className="text-[20px] font-semibold text-[#111111] mb-4">
+          <h2 className="text-[22px] font-semibold tracking-[-0.01em] text-[#111111] mb-4">
             Why this mattered
           </h2>
-          <p className="text-[15px] text-[#555555] leading-[1.75] max-w-[600px]">
+          <p className="text-[15px] text-[#555555] leading-[1.7] max-w-[600px]">
             Specialist technical businesses often lose commercial value when
             their digital presence fails to communicate the sophistication of
             their offer. Visualskies had the capabilities — VFX, virtual
@@ -83,7 +83,7 @@ export default function VisualskyesPage() {
       {/* The challenge */}
       <AnimateIn>
         <section className="py-12 border-b border-[#e5e5e5]">
-          <h2 className="text-[20px] font-semibold text-[#111111] mb-6">
+          <h2 className="text-[22px] font-semibold tracking-[-0.01em] text-[#111111] mb-6">
             The challenge
           </h2>
           <div className="flex flex-col gap-5">
@@ -96,7 +96,7 @@ export default function VisualskyesPage() {
                 <span className="text-[11px] font-medium text-[#999999] mt-1 flex-shrink-0 w-5">
                   {String(i + 1).padStart(2, "0")}
                 </span>
-                <p className="text-[15px] text-[#555555] leading-[1.75]">{point}</p>
+                <p className="text-[15px] text-[#555555] leading-[1.7]">{point}</p>
               </div>
             ))}
           </div>
@@ -112,7 +112,7 @@ export default function VisualskyesPage() {
       {/* My role */}
       <AnimateIn>
         <section className="py-12 border-b border-[#e5e5e5]">
-          <h2 className="text-[20px] font-semibold text-[#111111] mb-5">
+          <h2 className="text-[22px] font-semibold tracking-[-0.01em] text-[#111111] mb-5">
             My role
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -126,7 +126,7 @@ export default function VisualskyesPage() {
             ].map((item) => (
               <div key={item} className="flex items-center gap-3">
                 <span className="w-1 h-1 rounded-full bg-[#999999] flex-shrink-0" />
-                <span className="text-[14px] text-[#555555]">{item}</span>
+                <span className="text-[15px] text-[#555555]">{item}</span>
               </div>
             ))}
           </div>
@@ -136,15 +136,15 @@ export default function VisualskyesPage() {
       {/* Approach */}
       <AnimateIn>
         <section className="py-12 border-b border-[#e5e5e5]">
-          <h2 className="text-[20px] font-semibold text-[#111111] mb-8">
+          <h2 className="text-[22px] font-semibold tracking-[-0.01em] text-[#111111] mb-8">
             Approach
           </h2>
           <div className="flex flex-col gap-10">
             <div>
-              <h3 className="text-[15px] font-semibold text-[#111111] mb-3">
+              <h3 className="text-[17px] font-semibold text-[#111111] mb-3">
                 Clarifying the offer
               </h3>
-              <p className="text-[15px] text-[#555555] leading-[1.75] max-w-[560px]">
+              <p className="text-[15px] text-[#555555] leading-[1.7] max-w-[560px]">
                 Services were restructured into three clear pathways — Capture,
                 Create, Experience — each with a distinct audience and
                 proposition. This made the scope of the studio&apos;s work
@@ -153,10 +153,10 @@ export default function VisualskyesPage() {
               </p>
             </div>
             <div>
-              <h3 className="text-[15px] font-semibold text-[#111111] mb-3">
+              <h3 className="text-[17px] font-semibold text-[#111111] mb-3">
                 Strengthening the digital experience
               </h3>
-              <p className="text-[15px] text-[#555555] leading-[1.75] max-w-[560px]">
+              <p className="text-[15px] text-[#555555] leading-[1.7] max-w-[560px]">
                 Content hierarchy and user flow were improved to build
                 confidence and understanding progressively. The work section was
                 rebuilt to lead with visually compelling project examples,
@@ -165,10 +165,10 @@ export default function VisualskyesPage() {
               </p>
             </div>
             <div>
-              <h3 className="text-[15px] font-semibold text-[#111111] mb-3">
+              <h3 className="text-[17px] font-semibold text-[#111111] mb-3">
                 Elevating perception
               </h3>
-              <p className="text-[15px] text-[#555555] leading-[1.75] max-w-[560px]">
+              <p className="text-[15px] text-[#555555] leading-[1.7] max-w-[560px]">
                 The visual direction was refined to feel more advanced and
                 precise — dark, technical, future-facing. Typography, spacing
                 and imagery were tightened to communicate the sophistication of
@@ -196,7 +196,7 @@ export default function VisualskyesPage() {
       {/* Selected decisions */}
       <AnimateIn>
         <section className="py-12 border-b border-[#e5e5e5]">
-          <h2 className="text-[20px] font-semibold text-[#111111] mb-6">
+          <h2 className="text-[22px] font-semibold tracking-[-0.01em] text-[#111111] mb-6">
             Selected decisions
           </h2>
           <div className="flex flex-col gap-6">
@@ -221,7 +221,7 @@ export default function VisualskyesPage() {
                 <p className="text-[15px] font-semibold text-[#111111] mb-1">
                   {item.decision}
                 </p>
-                <p className="text-[14px] text-[#555555] leading-[1.65]">
+                <p className="text-[15px] text-[#555555] leading-[1.7]">
                   {item.detail}
                 </p>
               </div>
@@ -255,10 +255,10 @@ export default function VisualskyesPage() {
       {/* Outcome */}
       <AnimateIn>
         <section className="py-12 border-b border-[#e5e5e5]">
-          <h2 className="text-[20px] font-semibold text-[#111111] mb-4">
+          <h2 className="text-[22px] font-semibold tracking-[-0.01em] text-[#111111] mb-4">
             Outcome
           </h2>
-          <p className="text-[15px] text-[#555555] leading-[1.75] max-w-[580px]">
+          <p className="text-[15px] text-[#555555] leading-[1.7] max-w-[580px]">
             The result was a more coherent and commercially useful platform that
             better reflects the sophistication of the studio&apos;s capabilities.
             Specialist services are communicated with greater confidence and
@@ -272,7 +272,7 @@ export default function VisualskyesPage() {
       {/* Closing reflection */}
       <AnimateIn>
         <section className="py-12">
-          <p className="text-[15px] text-[#555555] leading-[1.75] max-w-[560px]">
+          <p className="text-[15px] text-[#555555] leading-[1.7] max-w-[560px]">
             This project sits at the centre of what I do best — helping
             specialist businesses translate complexity into clarity through
             brand and digital structure. The challenge was not just design. It
@@ -289,7 +289,7 @@ export default function VisualskyesPage() {
           <div className="flex items-center gap-6">
             <a
               href="mailto:h.killick@triband.studio"
-              className="text-[14px] font-medium text-[#111111] hover:text-[#555555] transition-colors"
+              className="text-[15px] font-medium text-[#111111] hover:text-[#555555] transition-colors"
             >
               Email →
             </a>
@@ -297,7 +297,7 @@ export default function VisualskyesPage() {
               href="/cv/henry-killick-cv.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[14px] font-medium text-[#111111] hover:text-[#555555] transition-colors"
+              className="text-[15px] font-medium text-[#111111] hover:text-[#555555] transition-colors"
             >
               View CV →
             </a>

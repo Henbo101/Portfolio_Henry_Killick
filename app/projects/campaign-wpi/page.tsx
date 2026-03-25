@@ -18,10 +18,10 @@ export default function CampaignWPIPage() {
           <p className="text-[11px] font-medium tracking-[0.1em] uppercase text-[#999999] mb-4">
             Editorial · Digital Experience · Content Design
           </p>
-          <h1 className="text-[40px] md:text-[48px] font-semibold text-[#111111] leading-[1.1] tracking-tight mb-4">
+          <h1 className="text-[44px] md:text-[52px] font-semibold text-[#111111] leading-[1.05] tracking-[-0.02em] mb-4">
             Campaign WPI
           </h1>
-          <p className="text-[18px] text-[#555555] leading-[1.65] max-w-[560px] mb-5">
+          <p className="text-[17px] text-[#555555] leading-[1.5] max-w-[560px] mb-5">
             Structuring insight-led content into a digital editorial experience
             designed to carry information with more pace and visual impact.
           </p>
@@ -48,10 +48,10 @@ export default function CampaignWPIPage() {
       {/* Context */}
       <AnimateIn>
         <section className="py-12 border-b border-[#e5e5e5]">
-          <h2 className="text-[20px] font-semibold text-[#111111] mb-4">
+          <h2 className="text-[22px] font-semibold tracking-[-0.01em] text-[#111111] mb-4">
             Context
           </h2>
-          <p className="text-[15px] text-[#555555] leading-[1.75] max-w-[580px]">
+          <p className="text-[15px] text-[#555555] leading-[1.7] max-w-[580px]">
             Campaign WPI produces industry insight content for specialist
             audiences. The work centred on how that content was structured,
             presented and experienced digitally — moving from static information
@@ -64,10 +64,10 @@ export default function CampaignWPIPage() {
       {/* The challenge */}
       <AnimateIn>
         <section className="py-12 border-b border-[#e5e5e5]">
-          <h2 className="text-[20px] font-semibold text-[#111111] mb-4">
+          <h2 className="text-[22px] font-semibold tracking-[-0.01em] text-[#111111] mb-4">
             The challenge
           </h2>
-          <p className="text-[15px] text-[#555555] leading-[1.75] max-w-[580px]">
+          <p className="text-[15px] text-[#555555] leading-[1.7] max-w-[580px]">
             Information alone does not create engagement. It needs rhythm,
             hierarchy and narrative movement. The challenge was to make
             insight-led material feel worth reading — not just worth filing —
@@ -80,15 +80,15 @@ export default function CampaignWPIPage() {
       {/* What I focused on */}
       <AnimateIn>
         <section className="py-12 border-b border-[#e5e5e5]">
-          <h2 className="text-[20px] font-semibold text-[#111111] mb-8">
+          <h2 className="text-[22px] font-semibold tracking-[-0.01em] text-[#111111] mb-8">
             What I focused on
           </h2>
           <div className="flex flex-col gap-10">
             <div>
-              <h3 className="text-[15px] font-semibold text-[#111111] mb-3">
+              <h3 className="text-[17px] font-semibold text-[#111111] mb-3">
                 Story flow
               </h3>
-              <p className="text-[15px] text-[#555555] leading-[1.75] max-w-[560px]">
+              <p className="text-[15px] text-[#555555] leading-[1.7] max-w-[560px]">
                 A clearer path through the content was established — one with
                 a logical sequence that built understanding progressively rather
                 than presenting everything at the same weight. Each section was
@@ -96,20 +96,20 @@ export default function CampaignWPIPage() {
               </p>
             </div>
             <div>
-              <h3 className="text-[15px] font-semibold text-[#111111] mb-3">
+              <h3 className="text-[17px] font-semibold text-[#111111] mb-3">
                 Visual rhythm
               </h3>
-              <p className="text-[15px] text-[#555555] leading-[1.75] max-w-[560px]">
+              <p className="text-[15px] text-[#555555] leading-[1.7] max-w-[560px]">
                 Spacing, hierarchy and layout were used to control pacing —
                 giving readers places to pause, scan and re-engage rather than
                 confronting them with an undifferentiated wall of content.
               </p>
             </div>
             <div>
-              <h3 className="text-[15px] font-semibold text-[#111111] mb-3">
+              <h3 className="text-[17px] font-semibold text-[#111111] mb-3">
                 Readability
               </h3>
-              <p className="text-[15px] text-[#555555] leading-[1.75] max-w-[560px]">
+              <p className="text-[15px] text-[#555555] leading-[1.7] max-w-[560px]">
                 Typography and content block structure were refined to make the
                 material easier to scan and absorb — particularly important for
                 audiences engaging with specialist industry content in a
@@ -142,10 +142,10 @@ export default function CampaignWPIPage() {
       {/* Outcome */}
       <AnimateIn>
         <section className="py-12 border-b border-[#e5e5e5]">
-          <h2 className="text-[20px] font-semibold text-[#111111] mb-4">
+          <h2 className="text-[22px] font-semibold tracking-[-0.01em] text-[#111111] mb-4">
             Outcome
           </h2>
-          <p className="text-[15px] text-[#555555] leading-[1.75] max-w-[580px]">
+          <p className="text-[15px] text-[#555555] leading-[1.7] max-w-[580px]">
             The result was a stronger and more momentum-driven reading
             experience — one where the insight felt easier to access and the
             content felt worth engaging with rather than simply referencing.
@@ -160,7 +160,7 @@ export default function CampaignWPIPage() {
           <div className="flex items-center gap-6">
             <a
               href="mailto:h.killick@triband.studio"
-              className="text-[14px] font-medium text-[#111111] hover:text-[#555555] transition-colors"
+              className="text-[15px] font-medium text-[#111111] hover:text-[#555555] transition-colors"
             >
               Email →
             </a>
@@ -168,7 +168,7 @@ export default function CampaignWPIPage() {
               href="/cv/henry-killick-cv.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[14px] font-medium text-[#111111] hover:text-[#555555] transition-colors"
+              className="text-[15px] font-medium text-[#111111] hover:text-[#555555] transition-colors"
             >
               View CV →
             </a>

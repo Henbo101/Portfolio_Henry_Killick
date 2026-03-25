@@ -42,7 +42,7 @@ const items = [
 export default function ImpactStats() {
   return (
     <section>
-      <h2 className="text-[18px] font-semibold text-[var(--text-primary)] mb-8">
+      <h2 className="text-[22px] font-semibold text-[var(--text-primary)] tracking-[-0.01em] mb-8">
         Impact at a Glance
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-x-8 gap-y-7">
@@ -57,7 +57,7 @@ export default function ImpactStats() {
                 >
                   {item.label}
                 </span>
-                <p className="text-[14px] text-[var(--text-secondary)] leading-[1.65]">
+                <p className="text-[15px] text-[var(--text-secondary)] leading-[1.7]">
                   <strong className="font-semibold text-[var(--text-primary)]">
                     {item.bold}
                   </strong>
