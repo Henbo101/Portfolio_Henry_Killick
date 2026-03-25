@@ -33,7 +33,7 @@ export default function ProjectCard({
   return (
     <AnimateIn>
       <Link href={href} className="group block">
-        <div className="rounded-2xl overflow-hidden border border-dashed border-[var(--border-dashed)] bg-white transition-opacity duration-300 group-hover:opacity-75">
+        <div className="rounded-2xl overflow-hidden border border-dashed border-[var(--border-dashed)] bg-[#151515] transition-opacity duration-300 group-hover:opacity-75">
           {/* Text block — centred */}
           <div className="px-6 pt-7 pb-0 flex flex-col items-center text-center border-b border-dashed border-[var(--border-dashed)]">
             <h3 className="text-[17px] font-semibold text-[var(--text-primary)] leading-[1.3] mb-2">
@@ -56,7 +56,7 @@ export default function ProjectCard({
           </div>
 
           {/* Image — flush bottom */}
-          <div className="relative w-full aspect-[16/9] overflow-hidden bg-[#f5f5f5]">
+          <div className="relative w-full aspect-[16/9] overflow-hidden bg-[#1a1a1a]">
             <Image
               src={imageSrc}
               alt={imageAlt}

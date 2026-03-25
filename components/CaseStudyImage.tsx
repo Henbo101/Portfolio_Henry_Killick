@@ -35,7 +35,7 @@ export default function CaseStudyImage({
 
   return (
     <figure className="my-8">
-      <div className={`relative w-full ${aspectClass} rounded-xl overflow-hidden bg-[#f5f5f5]`}>
+      <div className={`relative w-full ${aspectClass} rounded-xl overflow-hidden bg-[#1a1a1a]`}>
         <Image
           src={src}
           alt={alt}
@@ -46,7 +46,7 @@ export default function CaseStudyImage({
         />
       </div>
       {caption && (
-        <figcaption className="mt-3 text-[12px] text-[#999999] text-center">
+        <figcaption className="mt-3 text-[12px] text-[var(--text-muted)] text-center">
           {caption}
         </figcaption>
       )}

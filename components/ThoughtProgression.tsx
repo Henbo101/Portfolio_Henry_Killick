@@ -43,8 +43,8 @@ export default function ThoughtProgression() {
         {items.map((item, i) => (
           <AnimateIn key={item.title} delay={i * 0.08}>
             <Link href={item.href} className="group block h-full">
-              <div className="rounded-xl overflow-hidden flex flex-col h-full border border-dashed border-[var(--border-dashed)] bg-white transition-opacity duration-300 group-hover:opacity-75">
-                <div className="relative w-full aspect-[3/2] overflow-hidden flex-shrink-0 bg-[#f5f5f5] border-b border-dashed border-[var(--border-dashed)]">
+              <div className="rounded-xl overflow-hidden flex flex-col h-full border border-dashed border-[var(--border-dashed)] bg-[#151515] transition-opacity duration-300 group-hover:opacity-75">
+                <div className="relative w-full aspect-[3/2] overflow-hidden flex-shrink-0 bg-[#1a1a1a] border-b border-dashed border-[var(--border-dashed)]">
                   <Image
                     src={item.imageSrc}
                     alt={item.imageAlt}

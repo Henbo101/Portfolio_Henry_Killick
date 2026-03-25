@@ -15,13 +15,13 @@ export default function ClearyEnergyPage() {
       {/* Hero */}
       <section className="pt-16 pb-10">
         <AnimateIn>
-          <p className="text-[11px] font-medium tracking-[0.1em] uppercase text-[#999999] mb-4">
+          <p className="text-[11px] font-medium tracking-[0.1em] uppercase text-[var(--text-muted)] mb-4">
             Editorial · Strategy · Information Design
           </p>
-          <h1 className="text-[44px] md:text-[52px] font-semibold text-[#111111] leading-[1.05] tracking-[-0.02em] mb-4">
+          <h1 className="text-[44px] md:text-[52px] font-semibold text-[var(--text-primary)] leading-[1.05] tracking-[-0.02em] mb-4">
             Cleary Energy
           </h1>
-          <p className="text-[17px] text-[#555555] leading-[1.5] max-w-[560px] mb-5">
+          <p className="text-[17px] text-[var(--text-secondary)] leading-[1.5] max-w-[560px] mb-5">
             Making a complex energy outlook more navigable, authoritative and
             engaging.
           </p>
@@ -47,11 +47,11 @@ export default function ClearyEnergyPage() {
 
       {/* Context */}
       <AnimateIn>
-        <section className="py-12 border-b border-[#e5e5e5]">
-          <h2 className="text-[22px] font-semibold tracking-[-0.01em] text-[#111111] mb-4">
+        <section className="py-12 border-b border-[var(--border-dashed)]">
+          <h2 className="text-[22px] font-semibold tracking-[-0.01em] text-[var(--text-primary)] mb-4">
             Context
           </h2>
-          <p className="text-[15px] text-[#555555] leading-[1.7] max-w-[580px]">
+          <p className="text-[15px] text-[var(--text-secondary)] leading-[1.7] max-w-[580px]">
             Cleary Gottlieb&apos;s energy practice produces longform analysis on
             key regulatory and market developments across the European energy
             landscape. This piece covered complex legislative and policy
@@ -63,11 +63,11 @@ export default function ClearyEnergyPage() {
 
       {/* The challenge */}
       <AnimateIn>
-        <section className="py-12 border-b border-[#e5e5e5]">
-          <h2 className="text-[22px] font-semibold tracking-[-0.01em] text-[#111111] mb-4">
+        <section className="py-12 border-b border-[var(--border-dashed)]">
+          <h2 className="text-[22px] font-semibold tracking-[-0.01em] text-[var(--text-primary)] mb-4">
             The challenge
           </h2>
-          <p className="text-[15px] text-[#555555] leading-[1.7] max-w-[580px]">
+          <p className="text-[15px] text-[var(--text-secondary)] leading-[1.7] max-w-[580px]">
             Legal and policy-led content often loses readability through density,
             despite its importance. The work required a careful balance: making
             the material more navigable and accessible without compromising the
@@ -78,8 +78,8 @@ export default function ClearyEnergyPage() {
 
       {/* My role */}
       <AnimateIn>
-        <section className="py-12 border-b border-[#e5e5e5]">
-          <h2 className="text-[22px] font-semibold tracking-[-0.01em] text-[#111111] mb-5">
+        <section className="py-12 border-b border-[var(--border-dashed)]">
+          <h2 className="text-[22px] font-semibold tracking-[-0.01em] text-[var(--text-primary)] mb-5">
             My role
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -91,7 +91,7 @@ export default function ClearyEnergyPage() {
             ].map((item) => (
               <div key={item} className="flex items-center gap-3">
                 <span className="w-1 h-1 rounded-full bg-[#999999] flex-shrink-0" />
-                <span className="text-[14px] text-[#555555]">{item}</span>
+                <span className="text-[14px] text-[var(--text-secondary)]">{item}</span>
               </div>
             ))}
           </div>
@@ -100,16 +100,16 @@ export default function ClearyEnergyPage() {
 
       {/* Approach */}
       <AnimateIn>
-        <section className="py-12 border-b border-[#e5e5e5]">
-          <h2 className="text-[22px] font-semibold tracking-[-0.01em] text-[#111111] mb-8">
+        <section className="py-12 border-b border-[var(--border-dashed)]">
+          <h2 className="text-[22px] font-semibold tracking-[-0.01em] text-[var(--text-primary)] mb-8">
             Approach
           </h2>
           <div className="flex flex-col gap-10">
             <div>
-              <h3 className="text-[17px] font-semibold text-[#111111] mb-3">
+              <h3 className="text-[17px] font-semibold text-[var(--text-primary)] mb-3">
                 Breaking the topic into clear chapters
               </h3>
-              <p className="text-[15px] text-[#555555] leading-[1.7] max-w-[560px]">
+              <p className="text-[15px] text-[var(--text-secondary)] leading-[1.7] max-w-[560px]">
                 The content was segmented into distinct thematic stages,
                 allowing readers to move through a complex regulatory landscape
                 in manageable steps rather than confronting it as a single
@@ -117,10 +117,10 @@ export default function ClearyEnergyPage() {
               </p>
             </div>
             <div>
-              <h3 className="text-[17px] font-semibold text-[#111111] mb-3">
+              <h3 className="text-[17px] font-semibold text-[var(--text-primary)] mb-3">
                 Improving information hierarchy
               </h3>
-              <p className="text-[15px] text-[#555555] leading-[1.7] max-w-[560px]">
+              <p className="text-[15px] text-[var(--text-secondary)] leading-[1.7] max-w-[560px]">
                 Key developments were surfaced more clearly through typographic
                 treatment and structural emphasis — making it easier for readers
                 to identify what mattered and follow the argument without having
@@ -128,10 +128,10 @@ export default function ClearyEnergyPage() {
               </p>
             </div>
             <div>
-              <h3 className="text-[17px] font-semibold text-[#111111] mb-3">
+              <h3 className="text-[17px] font-semibold text-[var(--text-primary)] mb-3">
                 Supporting authority through structure
               </h3>
-              <p className="text-[15px] text-[#555555] leading-[1.7] max-w-[560px]">
+              <p className="text-[15px] text-[var(--text-secondary)] leading-[1.7] max-w-[560px]">
                 The approach was deliberately restrained — clarity and
                 accessibility were introduced through structure and pacing
                 rather than graphic treatment, keeping the piece serious and
@@ -170,11 +170,11 @@ export default function ClearyEnergyPage() {
 
       {/* Outcome */}
       <AnimateIn>
-        <section className="py-12 border-b border-[#e5e5e5]">
-          <h2 className="text-[22px] font-semibold tracking-[-0.01em] text-[#111111] mb-4">
+        <section className="py-12 border-b border-[var(--border-dashed)]">
+          <h2 className="text-[22px] font-semibold tracking-[-0.01em] text-[var(--text-primary)] mb-4">
             Outcome
           </h2>
-          <p className="text-[15px] text-[#555555] leading-[1.7] max-w-[580px]">
+          <p className="text-[15px] text-[var(--text-secondary)] leading-[1.7] max-w-[580px]">
             The result was a more coherent, accessible and authoritative reading
             experience — one that allowed readers to engage with complex energy
             analysis at their own pace, with a clear sense of where they were in
@@ -185,12 +185,12 @@ export default function ClearyEnergyPage() {
 
       {/* CTA */}
       <AnimateIn>
-        <div className="border-t border-[#e5e5e5] py-12 mb-10">
-          <p className="text-[13px] text-[#999999] mb-4">Want to discuss this project or work together?</p>
+        <div className="border-t border-[var(--border-dashed)] py-12 mb-10">
+          <p className="text-[13px] text-[var(--text-muted)] mb-4">Want to discuss this project or work together?</p>
           <div className="flex items-center gap-6">
             <a
               href="mailto:h.killick@triband.studio"
-              className="text-[15px] font-medium text-[#111111] hover:text-[#555555] transition-colors"
+              className="text-[15px] font-medium text-[var(--text-primary)] hover:text-[var(--text-secondary)] transition-colors"
             >
               Email →
             </a>
@@ -198,7 +198,7 @@ export default function ClearyEnergyPage() {
               href="/cv/henry-killick-cv.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[15px] font-medium text-[#111111] hover:text-[#555555] transition-colors"
+              className="text-[15px] font-medium text-[var(--text-primary)] hover:text-[var(--text-secondary)] transition-colors"
             >
               View CV →
             </a>

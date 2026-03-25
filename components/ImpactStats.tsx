@@ -1,9 +1,9 @@
 import AnimateIn from "./AnimateIn";
 
 const ACCENTS = [
-  { text: "#0077b6", bg: "#dff0fa" },
-  { text: "#c1440e", bg: "#fde8e0" },
-  { text: "#1a6b4a", bg: "#e0f2ec" },
+  { text: "#5bc4ff", bg: "#0d1e2b" },
+  { text: "#e8723d", bg: "#221008" },
+  { text: "#3dbf8e", bg: "#0c1f16" },
 ];
 
 const items = [

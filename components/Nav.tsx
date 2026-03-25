@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Nav() {
   return (
-    <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-dashed border-[var(--border-dashed)]">
+    <header className="sticky top-0 z-50 bg-[#0d0d0d]/90 backdrop-blur-md border-b border-dashed border-[var(--border-dashed)]">
       <div className="px-6 md:px-10 h-14 flex items-center justify-between">
         {/* Left: name + CV */}
         <div className="flex items-center">

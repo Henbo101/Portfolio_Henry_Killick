@@ -4,7 +4,7 @@ import Footer from "./Footer";
 export default function CaseStudyLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="max-w-[820px] mx-auto border-x border-dashed border-[var(--border-dashed)] min-h-screen flex flex-col">
-      <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-dashed border-[var(--border-dashed)]">
+      <header className="sticky top-0 z-50 bg-[#0d0d0d]/90 backdrop-blur-md border-b border-dashed border-[var(--border-dashed)]">
         <div className="px-6 md:px-10 h-14 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2 text-[13px] text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none">

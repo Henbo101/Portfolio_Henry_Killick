@@ -10,7 +10,7 @@ const roles = [
       "Freelance practice spanning brand development, websites, narrative-led editorial design and digital communication for studios, agencies and growing businesses.",
     logo: null,
     initial: "HK",
-    logoBg: "bg-[#f0f0f0]",
+    logoBg: "bg-[#1e1e1e]",
     logoContain: false,
   },
   {
@@ -32,7 +32,7 @@ const roles = [
       "Worked across client-facing design output in a full-time agency environment, developing strong commercial instincts across brand, layout and communication.",
     logo: "/images/logos/rostrum_communications_logo.jpeg",
     initial: "R",
-    logoBg: "bg-[#f0f0f0]",
+    logoBg: "bg-[#1e1e1e]",
     logoContain: false,
   },
   {
@@ -43,7 +43,7 @@ const roles = [
       "Managed creative delivery across community-facing design work, producing clear and effective communications for a wide public audience.",
     logo: "/images/logos/MCT-logo.png",
     initial: "MCT",
-    logoBg: "bg-[#f0f0f0]",
+    logoBg: "bg-[#1e1e1e]",
     logoContain: false,
   },
 ];

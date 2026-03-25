@@ -39,14 +39,14 @@ export default function About() {
                 href="/cv/henry-killick-cv.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center mt-6 px-4 py-2 text-[13px] font-medium bg-[var(--text-primary)] text-white rounded-lg hover:opacity-75 transition-opacity"
+                className="inline-flex items-center mt-6 px-4 py-2 text-[13px] font-medium bg-[var(--text-primary)] text-[var(--bg)] rounded-lg hover:opacity-75 transition-opacity"
               >
                 View CV
               </a>
             </div>
 
             <div className="w-full md:w-[200px] flex-shrink-0">
-              <div className="rounded-xl overflow-hidden bg-[#f0f0f0] aspect-square">
+              <div className="rounded-xl overflow-hidden bg-[#1e1e1e] aspect-square">
                 <Image
                   src="/images/headshot.jpg"
                   alt="Henry Killick"
