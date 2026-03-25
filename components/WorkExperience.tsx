@@ -54,20 +54,20 @@ export default function WorkExperience() {
       <h2 className="text-[22px] font-semibold text-[var(--text-primary)] tracking-[-0.01em] mb-6">
         Work Experience
       </h2>
-      <div className="flex flex-col divide-y divide-dashed divide-[var(--border-dashed)]">
+      <div className="rounded-2xl border border-dashed border-[var(--border-dashed)] overflow-hidden">
         {roles.map((role, i) => (
           <AnimateIn key={role.company} delay={i * 0.07}>
-            <div className="flex gap-5 items-center pt-6 pb-3 first:pt-0">
+            <div className={`flex items-center gap-5 px-6 py-5 ${i > 0 ? "border-t border-dashed border-[var(--border-dashed)]" : ""}`}>
               {/* Logo */}
               <div
-                className={`w-11 h-11 rounded-full overflow-hidden flex-shrink-0 ${role.logoBg} flex items-center justify-center`}
+                className={`w-12 h-12 rounded-full overflow-hidden flex-shrink-0 ${role.logoBg} flex items-center justify-center`}
               >
                 {role.logo ? (
                   <Image
                     src={role.logo}
                     alt={role.company}
-                    width={44}
-                    height={44}
+                    width={48}
+                    height={48}
                     className={
                       role.logoContain
                         ? "object-contain w-3/5 h-3/5"
@@ -75,29 +75,29 @@ export default function WorkExperience() {
                     }
                   />
                 ) : (
-                  <span className="text-[10px] font-semibold text-[var(--text-muted)]">
+                  <span className="text-[11px] font-semibold text-[var(--text-muted)]">
                     {role.initial}
                   </span>
                 )}
               </div>
 
               {/* Content */}
-              <div className="flex-1 min-w-0 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
-                <div className="min-w-0">
-                  <p className="text-[14px] font-semibold text-[var(--text-primary)] leading-snug truncate">
-                    {role.role}
-                    <span className="font-normal text-[var(--text-secondary)]">
-                      {" "}· {role.company}
-                    </span>
-                  </p>
-                  <p className="text-[13px] text-[var(--text-secondary)] leading-[1.6] mt-1 line-clamp-2">
-                    {role.description}
-                  </p>
-                </div>
-                <span className="text-[12px] text-[var(--text-muted)] flex-shrink-0 sm:pl-6">
-                  {role.dates}
-                </span>
+              <div className="flex-1 min-w-0">
+                <p className="text-[15px] font-semibold text-[var(--text-primary)] leading-snug">
+                  {role.role}
+                </p>
+                <p className="text-[14px] text-[var(--text-secondary)] leading-snug mt-0.5">
+                  {role.company}
+                </p>
+                <p className="text-[13px] text-[var(--text-muted)] leading-[1.5] mt-2 max-w-[420px]">
+                  {role.description}
+                </p>
               </div>
+
+              {/* Date */}
+              <span className="text-[13px] text-[var(--text-muted)] flex-shrink-0 text-right self-start mt-1">
+                {role.dates}
+              </span>
             </div>
           </AnimateIn>
         ))}
