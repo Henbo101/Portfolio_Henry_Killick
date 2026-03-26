@@ -3,8 +3,8 @@
 import { useEffect, useRef } from 'react'
 
 const PALETTE = ['#D32F2F', '#1976D2', '#FBC02D', '#EEEEEE', '#E64A19', '#00796B', '#F5F5DC', '#8DA399']
-const CANVAS_W = 48
-const AMPLITUDE = 13
+const CANVAS_W = 36
+const AMPLITUDE = 10
 const CYCLES = 5
 
 export default function ScrollStrand() {
@@ -38,17 +38,21 @@ export default function ScrollStrand() {
         const dxdt  = (AMPLITUDE * CYCLES * Math.PI * 2 * Math.cos(p * CYCLES * Math.PI * 2)) / h
         const angle = Math.atan2(1, dxdt)
 
-        const bw = 8  + Math.random() * 5
-        const bh = 3.5 + Math.random() * 3
+        // Double-random biases toward small with occasional large outliers
+        const bw = 4  + Math.random() * Math.random() * 20
+        const bh = 2  + Math.random() * Math.random() * 9
+        // Angle jitter so blocks don't all sit perfectly parallel
+        const jitter = (Math.random() - 0.5) * 0.28
 
         blocks.push({
-          x, y: t, angle,
+          x, y: t, angle: angle + jitter,
           w: bw, h: bh,
           color: PALETTE[Math.floor(Math.random() * PALETTE.length)],
-          strokeW: 0.2 + Math.random() * 0.5,
+          strokeW: 0.15 + Math.random() * 0.7,
         })
 
-        t += bw * 0.78
+        // Variable spacing — sometimes tight clusters, sometimes gaps
+        t += bw * (0.45 + Math.random() * 1.1)
       }
     }
 
@@ -108,7 +112,8 @@ export default function ScrollStrand() {
       ref={canvasRef}
       className="fixed top-0 z-30 pointer-events-none hidden md:block"
       // aligns canvas to the inside-left edge of the 820px content container
-      style={{ left: 'clamp(0px, calc(50vw - 410px + 2px), 100vw)' }}
+      // Canvas centre aligns with centre of 40px left margin: border + 20px - CANVAS_W/2
+      style={{ left: 'clamp(0px, calc(50vw - 408px), 100vw)' }}
     />
   )
 }
