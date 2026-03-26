@@ -37,7 +37,7 @@ export default function Home() {
             />
             <ProjectCard
               href="/projects/bespoke"
-              title="BESPOKE Garden Play"
+              title="BESPOKE"
               description="Rebranding and positioning for a boutique Devon playhouse company — shaping a clearer brand character that expresses craftsmanship and premium quality without losing warmth."
               tags={["Brand Refinement", "Positioning", "Tone of Voice", "Visual System", "Digital Presentation"]}
               imageSrc="/images/screenshots/05-BespokeRebrand-BrandStrategy.png"
