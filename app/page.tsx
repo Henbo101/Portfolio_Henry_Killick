@@ -1,5 +1,6 @@
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
+import ScrollStrand from "@/components/ScrollStrand";
 import ImpactStats from "@/components/ImpactStats";
 import ProjectCard from "@/components/ProjectCard";
 import ThoughtProgression from "@/components/ThoughtProgression";
@@ -13,6 +14,7 @@ import Divider from "@/components/Divider";
 export default function Home() {
   return (
     <div className="max-w-[820px] mx-auto border-x border-dashed border-[var(--border-dashed)] min-h-screen flex flex-col">
+      <ScrollStrand />
       <Nav />
 
       <main className="px-6 md:px-10 flex-1">
