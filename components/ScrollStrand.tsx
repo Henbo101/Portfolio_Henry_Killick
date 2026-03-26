@@ -3,8 +3,8 @@
 import { useEffect, useRef } from 'react'
 
 const PALETTE = ['#D32F2F', '#1976D2', '#FBC02D', '#EEEEEE', '#E64A19', '#00796B', '#F5F5DC', '#8DA399']
-const CANVAS_W = 36
-const AMPLITUDE = 10
+const CANVAS_W = 52
+const AMPLITUDE = 18
 const CYCLES = 5
 
 export default function ScrollStrand() {
@@ -39,8 +39,8 @@ export default function ScrollStrand() {
         const angle = Math.atan2(1, dxdt)
 
         // Double-random biases toward small with occasional large outliers
-        const bw = 4  + Math.random() * Math.random() * 20
-        const bh = 2  + Math.random() * Math.random() * 9
+        const bw = 9  + Math.random() * Math.random() * 22
+        const bh = 5  + Math.random() * Math.random() * 11
         // Angle jitter so blocks don't all sit perfectly parallel
         const jitter = (Math.random() - 0.5) * 0.28
 
@@ -112,8 +112,8 @@ export default function ScrollStrand() {
       ref={canvasRef}
       className="fixed top-0 z-30 pointer-events-none hidden md:block"
       // aligns canvas to the inside-left edge of the 820px content container
-      // Centre of left gap = (100vw - 820px) / 4, minus half canvas width (18px)
-      style={{ left: 'clamp(0px, calc(25vw - 223px), 100vw)' }}
+      // Centre of left gap = (100vw - 820px) / 4, minus half canvas width (26px)
+      style={{ left: 'clamp(0px, calc(25vw - 231px), 100vw)' }}
     />
   )
 }
