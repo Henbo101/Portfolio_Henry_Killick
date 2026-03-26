@@ -112,8 +112,8 @@ export default function ScrollStrand() {
       ref={canvasRef}
       className="fixed top-0 z-30 pointer-events-none hidden md:block"
       // aligns canvas to the inside-left edge of the 820px content container
-      // Canvas centre aligns with centre of 40px left margin: border + 20px - CANVAS_W/2
-      style={{ left: 'clamp(0px, calc(50vw - 408px), 100vw)' }}
+      // Centre of left gap = (100vw - 820px) / 4, minus half canvas width (18px)
+      style={{ left: 'clamp(0px, calc(25vw - 223px), 100vw)' }}
     />
   )
 }
