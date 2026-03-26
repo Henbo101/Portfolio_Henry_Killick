@@ -12,7 +12,7 @@ export default function Nav() {
           >
             Henry Killick
           </Link>
-          <span className="mx-2 text-[var(--border)] select-none">|</span>
+          <span className="mx-2 text-[var(--text-muted)] select-none">|</span>
           <a
             href="/cv/henry-killick-cv.pdf"
             target="_blank"

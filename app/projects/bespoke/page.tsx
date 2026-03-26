@@ -96,7 +96,7 @@ export default function BespokePage() {
               "Communication consistency",
             ].map((item) => (
               <div key={item} className="flex items-center gap-3">
-                <span className="w-1 h-1 rounded-full bg-[#999999] flex-shrink-0" />
+                <span className="w-1 h-1 rounded-full bg-[var(--text-secondary)] flex-shrink-0" />
                 <span className="text-[15px] text-[var(--text-secondary)]">{item}</span>
               </div>
             ))}
