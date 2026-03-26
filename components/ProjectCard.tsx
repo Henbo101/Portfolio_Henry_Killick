@@ -36,7 +36,7 @@ export default function ProjectCard({
         <div className="rounded-2xl overflow-hidden border border-dashed border-[var(--border-dashed)] bg-[#151515] transition-opacity duration-300 group-hover:opacity-75">
           {/* Text block — centred */}
           <div className="px-6 pt-7 pb-0 flex flex-col items-center text-center border-b border-dashed border-[var(--border-dashed)]">
-            <h3 className="text-[17px] font-semibold text-[var(--text-primary)] leading-[1.3] mb-2">
+            <h3 className="text-[34px] font-semibold text-[var(--text-primary)] leading-[1.15] mb-2">
               {title}
             </h3>
             <p className="text-[13px] text-[var(--text-secondary)] leading-[1.6] max-w-[480px] mb-6">
