@@ -9,10 +9,10 @@ export default function Hero() {
   const sectionRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    const canvas = canvasRef.current
-    const section = sectionRef.current
+    const canvas = canvasRef.current as HTMLCanvasElement
+    const section = sectionRef.current as HTMLDivElement
     if (!canvas || !section) return
-    const ctx = canvas.getContext('2d')
+    const ctx = canvas.getContext('2d') as CanvasRenderingContext2D
     if (!ctx) return
 
     const dpr = window.devicePixelRatio || 1
