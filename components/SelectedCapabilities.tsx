@@ -21,7 +21,7 @@ const capabilities = [
 export default function SelectedCapabilities() {
   return (
     <section>
-      <h2 className="text-[22px] font-semibold text-[var(--text-primary)] tracking-[-0.01em] mb-8">
+      <h2 className="text-[33px] font-semibold text-[var(--text-primary)] tracking-[-0.01em] mb-8">
         Selected Capabilities
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-7">

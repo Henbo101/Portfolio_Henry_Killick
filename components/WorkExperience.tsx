@@ -51,7 +51,7 @@ const roles = [
 export default function WorkExperience() {
   return (
     <section>
-      <h2 className="text-[22px] font-semibold text-[var(--text-primary)] tracking-[-0.01em] mb-6">
+      <h2 className="text-[33px] font-semibold text-[var(--text-primary)] tracking-[-0.01em] mb-6">
         Work Experience
       </h2>
       <div className="rounded-2xl border border-dashed border-[var(--border-dashed)] overflow-hidden">

@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <section>
       <AnimateIn>
-        <h2 className="text-[22px] font-semibold text-[var(--text-primary)] tracking-[-0.01em] mb-2">
+        <h2 className="text-[33px] font-semibold text-[var(--text-primary)] tracking-[-0.01em] mb-2">
           Connect with me
         </h2>
         <p className="text-[15px] text-[var(--text-secondary)] leading-[1.7] max-w-[420px] mb-7">

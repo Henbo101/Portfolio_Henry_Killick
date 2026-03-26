@@ -4,7 +4,7 @@ import AnimateIn from "./AnimateIn";
 export default function About() {
   return (
     <section>
-      <h2 className="text-[22px] font-semibold text-[var(--text-primary)] tracking-[-0.01em] mb-6">
+      <h2 className="text-[33px] font-semibold text-[var(--text-primary)] tracking-[-0.01em] mb-6">
         About
       </h2>
       <AnimateIn>

@@ -48,7 +48,7 @@ export default function CampaignWPIPage() {
       {/* Context */}
       <AnimateIn>
         <section className="py-12 border-b border-[var(--border-dashed)]">
-          <h2 className="text-[22px] font-semibold tracking-[-0.01em] text-[var(--text-primary)] mb-4">
+          <h2 className="text-[33px] font-semibold tracking-[-0.01em] text-[var(--text-primary)] mb-4">
             Context
           </h2>
           <p className="text-[15px] text-[var(--text-secondary)] leading-[1.7] max-w-[580px]">
@@ -64,7 +64,7 @@ export default function CampaignWPIPage() {
       {/* The challenge */}
       <AnimateIn>
         <section className="py-12 border-b border-[var(--border-dashed)]">
-          <h2 className="text-[22px] font-semibold tracking-[-0.01em] text-[var(--text-primary)] mb-4">
+          <h2 className="text-[33px] font-semibold tracking-[-0.01em] text-[var(--text-primary)] mb-4">
             The challenge
           </h2>
           <p className="text-[15px] text-[var(--text-secondary)] leading-[1.7] max-w-[580px]">
@@ -80,7 +80,7 @@ export default function CampaignWPIPage() {
       {/* What I focused on */}
       <AnimateIn>
         <section className="py-12 border-b border-[var(--border-dashed)]">
-          <h2 className="text-[22px] font-semibold tracking-[-0.01em] text-[var(--text-primary)] mb-8">
+          <h2 className="text-[33px] font-semibold tracking-[-0.01em] text-[var(--text-primary)] mb-8">
             What I focused on
           </h2>
           <div className="flex flex-col gap-10">
@@ -142,7 +142,7 @@ export default function CampaignWPIPage() {
       {/* Outcome */}
       <AnimateIn>
         <section className="py-12 border-b border-[var(--border-dashed)]">
-          <h2 className="text-[22px] font-semibold tracking-[-0.01em] text-[var(--text-primary)] mb-4">
+          <h2 className="text-[33px] font-semibold tracking-[-0.01em] text-[var(--text-primary)] mb-4">
             Outcome
           </h2>
           <p className="text-[15px] text-[var(--text-secondary)] leading-[1.7] max-w-[580px]">

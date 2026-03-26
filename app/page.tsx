@@ -23,7 +23,7 @@ export default function Home() {
         <Divider />
 
         <section>
-          <h2 className="text-[22px] font-semibold text-[var(--text-primary)] tracking-[-0.01em] mb-6">
+          <h2 className="text-[33px] font-semibold text-[var(--text-primary)] tracking-[-0.01em] mb-6">
             Projects
           </h2>
           <div className="flex flex-col gap-5">

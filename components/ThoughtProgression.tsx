@@ -32,7 +32,7 @@ const items = [
 export default function ThoughtProgression() {
   return (
     <section>
-      <h2 className="text-[22px] font-semibold text-[var(--text-primary)] tracking-[-0.01em] mb-2">
+      <h2 className="text-[33px] font-semibold text-[var(--text-primary)] tracking-[-0.01em] mb-2">
         Thought Progression
       </h2>
       <p className="text-[15px] text-[var(--text-muted)] leading-[1.7] mb-8 max-w-[480px]">

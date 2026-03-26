@@ -66,7 +66,7 @@ export default function VisualskyesPage() {
       {/* Why this mattered */}
       <AnimateIn>
         <section className="py-12 border-b border-[var(--border-dashed)]">
-          <h2 className="text-[22px] font-semibold tracking-[-0.01em] text-[var(--text-primary)] mb-4">
+          <h2 className="text-[33px] font-semibold tracking-[-0.01em] text-[var(--text-primary)] mb-4">
             Why this mattered
           </h2>
           <p className="text-[15px] text-[var(--text-secondary)] leading-[1.7] max-w-[600px]">
@@ -83,7 +83,7 @@ export default function VisualskyesPage() {
       {/* The challenge */}
       <AnimateIn>
         <section className="py-12 border-b border-[var(--border-dashed)]">
-          <h2 className="text-[22px] font-semibold tracking-[-0.01em] text-[var(--text-primary)] mb-6">
+          <h2 className="text-[33px] font-semibold tracking-[-0.01em] text-[var(--text-primary)] mb-6">
             The challenge
           </h2>
           <div className="flex flex-col gap-5">
@@ -112,7 +112,7 @@ export default function VisualskyesPage() {
       {/* My role */}
       <AnimateIn>
         <section className="py-12 border-b border-[var(--border-dashed)]">
-          <h2 className="text-[22px] font-semibold tracking-[-0.01em] text-[var(--text-primary)] mb-5">
+          <h2 className="text-[33px] font-semibold tracking-[-0.01em] text-[var(--text-primary)] mb-5">
             My role
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -136,7 +136,7 @@ export default function VisualskyesPage() {
       {/* Approach */}
       <AnimateIn>
         <section className="py-12 border-b border-[var(--border-dashed)]">
-          <h2 className="text-[22px] font-semibold tracking-[-0.01em] text-[var(--text-primary)] mb-8">
+          <h2 className="text-[33px] font-semibold tracking-[-0.01em] text-[var(--text-primary)] mb-8">
             Approach
           </h2>
           <div className="flex flex-col gap-10">
@@ -196,7 +196,7 @@ export default function VisualskyesPage() {
       {/* Selected decisions */}
       <AnimateIn>
         <section className="py-12 border-b border-[var(--border-dashed)]">
-          <h2 className="text-[22px] font-semibold tracking-[-0.01em] text-[var(--text-primary)] mb-6">
+          <h2 className="text-[33px] font-semibold tracking-[-0.01em] text-[var(--text-primary)] mb-6">
             Selected decisions
           </h2>
           <div className="flex flex-col gap-6">
@@ -255,7 +255,7 @@ export default function VisualskyesPage() {
       {/* Outcome */}
       <AnimateIn>
         <section className="py-12 border-b border-[var(--border-dashed)]">
-          <h2 className="text-[22px] font-semibold tracking-[-0.01em] text-[var(--text-primary)] mb-4">
+          <h2 className="text-[33px] font-semibold tracking-[-0.01em] text-[var(--text-primary)] mb-4">
             Outcome
           </h2>
           <p className="text-[15px] text-[var(--text-secondary)] leading-[1.7] max-w-[580px]">
