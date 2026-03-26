@@ -234,7 +234,7 @@ export default function Hero() {
       {/* Glassmorphism card with hero text */}
       <AnimateIn delay={0.1}>
         <div
-          className="absolute bottom-7 left-6 md:left-10 z-10 rounded-2xl p-7 max-w-[560px]"
+          className="absolute bottom-7 left-6 right-6 md:left-10 md:right-auto md:max-w-[560px] z-10 rounded-2xl p-7"
           style={{
             background: 'rgba(13, 13, 13, 0.72)',
             backdropFilter: 'blur(14px)',
@@ -244,7 +244,7 @@ export default function Hero() {
           }}
         >
           <HeroIcon />
-          <h1 className="text-[46px] md:text-[54px] font-bold text-[var(--text-primary)] leading-[1.05] tracking-[-0.025em] mb-5 mt-4">
+          <h1 className="text-[46px] md:text-[44px] font-bold text-[var(--text-primary)] leading-[1.05] tracking-[-0.025em] mb-5 mt-4">
             Hello, I&apos;m Henry Killick.
           </h1>
           <p className="text-[18px] text-[var(--text-secondary)] leading-[1.65]">
