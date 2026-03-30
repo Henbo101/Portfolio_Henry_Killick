@@ -232,7 +232,7 @@ export default function Hero() {
       <canvas ref={canvasRef} className="absolute inset-0" />
 
       {/* Glassmorphism card with hero text */}
-      <AnimateIn delay={0.1}>
+      <AnimateIn delay={0.1} blur={false}>
         <div
           className="absolute bottom-7 left-6 right-6 md:left-10 md:right-auto md:max-w-[560px] z-10 rounded-2xl p-7"
           style={{
